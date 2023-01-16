@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:#515151;
+}
+
+nav a:hover {
+    color:#71cc98;
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: auto 20px;
+    font-weight: bold;
+    color:#7B787C;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.primary-button {
+    margin-top: 30px;
+    padding: 20 20;
+    background-color: #71cc98;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color:white !important;
+    margin-right: 20px;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.banner {
+    width: 80%;
+    margin: 120px auto;
+    padding: 20px 20px;
+    background-color: #d3eedc;
+    border-radius: 10px;
+}
+
+.banner h2 {
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.banner p {
+    text-align: center;
+    color: #7B787C;
+}
+
+.big-section {
+    width:80%;
+    margin: auto;
+    padding: 20px 20px;
+    justify-content: right;
+}
+
+.center-aligned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.find-out-more {
+    flex-basis: auto;
+}
+
+
+footer {
+    background-color: #515151;
+    color: rgb(200, 200, 200);
+    margin: auto;
+    padding: 10px 10px 10px;
+}
+
+.footer-columns {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.first-footer-item {
+    font-weight: bold !important;
+    color:rgb(210, 210, 210)
+}

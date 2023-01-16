@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+
+
+
+/* -------------- NAV ------------------ */
+header {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:#515151;
+}
+
+nav a:hover {
+    color:#71cc98;
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: auto 20px;
+    font-weight: bold;
+    color:#7B787C;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.primary-button {
+    padding: 20 20;
+    background-color: #71cc98;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color:white !important;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* -------------- END NAV ------------------ */
+
+
+
+.top-section {
+    display:flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    padding-bottom: 0px;
+}
+
+.section-title {
+    align-self: center;
+    justify-content: center;
+}
+
+
+.whitespace {
+    height: 50px;
+}
+
+
+
+
+/* -------------- CONTENT ------------------ */
+.signup-content {
+    width: 42%;
+    margin: auto;
+}
+
+.signup-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.row {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.detail-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.btn-buy {
+    display: flex; 
+    justify-content: flex-end;
+    margin-left: 0.5rem;
+}
+
+.btn-buy a {
+    text-decoration: none;
+}
+
+.detail-box input, .detail-box select, .detail-box textarea {
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.detail-box textarea {
+    font-family: poppins;
+    font-size: 15px;
+}
+/* -------------- CONTENT ------------------ */
+
+
+
+
+
+/* -------------- FOOTER ------------------ */
+footer {
+    background-color: #515151;
+    color: rgb(200, 200, 200);
+    margin: auto;
+    padding: 10px 10px 10px;
+}
+
+.footer-columns {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.first-footer-item {
+    font-weight: bold !important;
+    color:rgb(210, 210, 210)
+}
+/* -------------- END FOOTER ------------------ */

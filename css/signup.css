@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+
+
+
+/* -------------- NAV ------------------ */
+header {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:#515151;
+}
+
+nav a:hover {
+    color:#71cc98;
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: auto 20px;
+    font-weight: bold;
+    color:#7B787C;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.primary-button {
+    padding: 20 20;
+    background-color: #71cc98;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color:white !important;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* -------------- END NAV ------------------ */
+
+.top-section {
+    display:flex;
+    width: 35%;
+    margin: auto;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    padding-bottom: 0px;
+}
+
+.section-title {
+    align-self: center;
+    justify-content: center;
+}
+
+.whitespace {
+    height: 50px;
+}
+
+
+
+
+/* -------------- CONTENT ------------------ */
+.create-content {
+    width: 20%;
+    margin: auto;
+    align-items: center;
+}
+
+.btn-buy {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.btn-buy a {
+    text-decoration: none;
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-text .signup-link {
+    text-decoration: none;
+    color:#515151;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    color: #71cc98;
+}
+
+#between-buttons-text {
+    font-size: 20px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* -------------- CONTENT ------------------ */
+
+
+
+
+
+/* -------------- FOOTER ------------------ */
+footer {
+    background-color: #515151;
+    color: rgb(200, 200, 200);
+    margin: auto;
+    padding: 10px 10px 10px;
+}
+
+.footer-columns {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.first-footer-item {
+    font-weight: bold !important;
+    color:rgb(210, 210, 210)
+}
+/* -------------- END FOOTER ------------------ */

@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Item</title>
+    <link rel="stylesheet" href="/css/sell_item.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/media/mint logo (2).png" alt="">
+            </div>
+
+            <ul class="nav-list">
+                <div class="nav-links">
+                    <li><a href = "/html/index.html">Home</a></li>
+                    <li><a href = "/html/buyPage.html">Buy</a></li>
+                    <li><a href = "/html/sellPage.html">Sell</a></li>
+                </div>
+
+                <div class="nav-buttons">
+                    <li><a href = "/html/login.html">Account</a></li>
+                    <a href="/html/cart.html"><li class="primary-button">Cart</li></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="top-section">
+        <div class="section-title">
+            <h2>Sell Product</h2>
+        </div>
+        <div class="back-button">
+            <a href="/html/sellPage.html"><button class="primary-button">Back</button></a>
+        </div>
+    </section>
+
+    <div class="whitespace"></div>
+    
+    <div class="sell-content">
+        <div class="sell-box">
+            <div class="row row1">
+                <div class="detail-box">
+                    <div class="detail-name">Product Name</div>
+                    <input type="text" class="product-name">
+                </div>
+                <div class="detail-box">
+                    <div class="detail-name">Price Per Item</div>
+                    <input type="number" class="product-price">
+                </div>
+                <div class="detail-box">
+                    <div class="detail-name">Quantity</div>
+                    <input type="number" class="product-quantity">
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="detail-box">
+                    <div class="detail-name">Product Description</div>
+                    <textarea name="description" id="desc" cols="85" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="row row3">
+                <div class="detail-box">
+                    <div class="detail-name">Product Image</div>
+                    <input type="file" onchange="readURL(this)" accept="Image/*">
+                </div>
+                <div class="detail-box">
+                    <div class="detail-name">Category</div>
+                    <select name="category-select" id="category">
+                        <option value="Shoes">Shoes</option>
+                        <option value="Tops">Tops</option>
+                        <option value="Bottoms">Bottoms</option>
+                        <option value="Accessories">Accessories</option>
+                    </select>
+                </div>
+                <div class="detail-box">
+                    <div class="detail-name">Product Intended For</div>
+                    <select name="gender-select" id="gender">
+                        <option value="Men">Men</option>
+                        <option value="Women">Women</option>
+                        <option value="Unisex">Unisex</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="whitespace"></div>
+
+        <div class="btn-buy">
+            <a href="/html/index.html"><button class="primary-button">Buy Now</button></a>
+        </div>
+    </div>
+
+    <div class="whitespace"></div>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-columns">
+                <li>
+                    <ul class="individual-footer-column">
+                        <li class="first-footer-item">Important Links</li>
+                        <li>Privacy and Policy</li>
+                        <li>Cookie Policy</li>
+                        <li>Terms and Conditions</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="individual-footer-column">
+                        <li class="first-footer-item">Stay Updated</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Pinterest</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="individual-footer-column">
+                        <li class="first-footer-item">Copyright</li>
+                        <li>www.mint.com</li>
+                        <li>2023</li>
+                        <li>All Rights Reserved</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
